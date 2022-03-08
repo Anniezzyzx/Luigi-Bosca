@@ -55,15 +55,15 @@ body { background: #707070; }
 /* ---------------------------------------- */
 #logo { top: 9px; left: 216px; }
 
-#legales { top: 8px; left: 9px; }
+#legales { top: 10px; left: 8px; }
 
-#txt_1 { top: 10px; left: -232px; }
+#txt_1 { top: 10px; left: -114px; }
 
-#txt_2 { top: 6px; left: -179px; }
+#txt_2 { top: 10px; left: -147px; }
 
-#txt_3 { top: 7px; left: -3px; }
+#txt_3 { top: 9px; left: -3px; }
 
-#cta { background: white; top: 13px; left: 10px; width: 151px; height: 24px; border-radius: 40px; }
+#cta { background: white; top: 13px; left: 10px; width: 151px; height: 23px; border-radius: 40px; }
 
 .sprite-jpg { background-image: url('sprite.jpg') }
 .sprite-jpg.img_1 {
@@ -74,26 +74,29 @@ body { background: #707070; }
 .sprite-png.cta_txt {
   width: 116px;
   height: 8px;
-  background-position: -96px -21px;
-  background-size: 243px 78px; }
+  background-position: -159px -69px;
+  background-size: 300px 135px; }
 .sprite-png.legales {
-  width: 290px;
-  height: 30px;
-  background-position: -192px 0px; }
+  width: 176px;
+  height: 24px;
+  background-position: -390px -72px; }
 .sprite-png.logo {
   width: 92px;
   height: 31px;
-  background-position: 0px 0px;
-  background-size: 243px 78px; }
+  background-position: 0px -102px;
+  background-size: 300px 135px; }
 .sprite-png.txt_1 {
-  width: 66px;
+  width: 189px;
   height: 27px;
-  background-position: -300px -72px; }
+  background-position: 0px -36px;
+  background-size: 300px 135px; }
 .sprite-png.txt_2 {
-  width: 121px;
-  height: 36px;
-  background-position: 0px -114px; }
+  width: 155px;
+  height: 27px;
+  background-position: 0px -69px;
+  background-size: 300px 135px; }
 .sprite-png.txt_3 {
-  width: 292px;
-  height: 35px;
-  background-position: 0px -72px; }
+  width: 299px;
+  height: 31px;
+  background-position: 0px 0px;
+  background-size: 300px 135px; }

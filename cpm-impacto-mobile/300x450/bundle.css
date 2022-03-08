@@ -53,21 +53,21 @@ body { background: #707070; }
 #ad_content, .backup { border: 1px solid black; cursor: pointer; position: absolute; width: 300px; height: 450px; background: url("backup.jpg") -1px -1px no-repeat; }
 
 /* ---------------------------------------- */
-#logo { top: 64px; left: 60px; }
+#logo { top: 60px; left: 56px; }
 
-#legales { top: 420px; left: 19px; }
+#legales { top: 408px; left: 19px; }
 
-#txt_1 { top: 195px; }
+#txt_1 { top: 168px; }
 
-#txt_2 { top: 195px; }
+#txt_2 { top: 170px; }
 
-#txt_3 { top: 352px; left: 4px; }
+#txt_3 { top: 370px; }
 
-#txt_4 { top: 163px; left: -2px; }
+#txt_4 { top: 159px; }
 
-#txt_5 { top: 352px; }
+#txt_5 { top: 345px; }
 
-#cta { background: white; top: 203px; left: 18px; width: 260px; height: 40px; border-radius: 40px; }
+#cta { background: white; top: 204px; left: 11px; width: 275px; height: 42px; border-radius: 40px; }
 
 .sprite-jpg { background-image: url('sprite.jpg') }
 .sprite-jpg.img_1 {
@@ -76,30 +76,34 @@ body { background: #707070; }
   background-position: 0px 0px; }
 .sprite-png { background-image: url('sprite.png') }
 .sprite-png.cta_txt {
-  width: 202px;
-  height: 14px;
-  background-position: -252px -108px; }
+  width: 217px;
+  height: 15px;
+  background-position: 0px -360px; }
+.sprite-png.legales {
+  width: 263px;
+  height: 28px;
+  background-position: 0px -324px; }
 .sprite-png.logo {
-  width: 178px;
-  height: 58px;
-  background-position: 0px -186px; }
+  width: 187px;
+  height: 61px;
+  background-position: -198px -210px; }
 .sprite-png.txt_1 {
-  width: 130px;
-  height: 59px;
-  background-position: -252px -42px; }
+  width: 190px;
+  height: 90px;
+  background-position: -204px 0px; }
 .sprite-png.txt_2 {
-  width: 206px;
-  height: 62px;
-  background-position: 0px -114px; }
+  width: 190px;
+  height: 67px;
+  background-position: 0px -210px; }
 .sprite-png.txt_3 {
-  width: 265px;
-  height: 20px;
-  background-position: 0px -252px; }
+  width: 268px;
+  height: 26px;
+  background-position: 0px -288px; }
 .sprite-png.txt_4 {
-  width: 245px;
-  height: 102px;
+  width: 195px;
+  height: 139px;
   background-position: 0px 0px; }
 .sprite-png.txt_5 {
-  width: 261px;
-  height: 30px;
-  background-position: -252px 0px; }
+  width: 277px;
+  height: 51px;
+  background-position: 0px -150px; }

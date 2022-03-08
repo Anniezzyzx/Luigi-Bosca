@@ -84,11 +84,11 @@
             autoAlpha: 0
           }, ">").to(["#txt_2", "#txt_3"], 0.1, {
             autoAlpha: 0
-          }, "+=3.5").from(["#txt_4", "#txt_5"], 0.1, {
+          }, "+=3").from(["#txt_4", "#txt_5"], 0.1, {
             autoAlpha: 0
           }, ">").to(["#txt_4", "#txt_5"], 0.1, {
             autoAlpha: 0
-          }, "+=7").from("#cta", 0.1, {
+          }, "+=5").from("#cta", 0.1, {
             autoAlpha: 0
           });
           dom.ad_content.classList.remove('invisible');

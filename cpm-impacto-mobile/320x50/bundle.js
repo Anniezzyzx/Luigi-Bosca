@@ -84,19 +84,19 @@
             autoAlpha: 0
           }, ">").to("#txt_2,#logo", 0.1, {
             autoAlpha: 0
-          }, "+=4").from("#txt_3", 0.1, {
+          }, "+=2").from("#txt_3", 0.1, {
             autoAlpha: 0
           }, ">").to("#txt_3", 0.1, {
             autoAlpha: 0
-          }, "+=5").from("#legales", 0.1, {
+          }, "+=4").from("#legales", 0.1, {
             autoAlpha: 0
-          }, ">").to("#legales", 0.1, {
-            autoAlpha: 0
-          }, "+=2").from("#cta", 0.1, {
-            autoAlpha: 0
-          }).to("#logo", 0.1, {
+          }, ">").to("#logo", 0.1, {
             autoAlpha: 1
-          }, "-=0.1");
+          }, "-=0.1").to("#legales", 0.1, {
+            autoAlpha: 0
+          }, "+=3").from("#cta", 0.1, {
+            autoAlpha: 0
+          });
           dom.ad_content.classList.remove('invisible');
         }
       } // Events ------------------------------------------------------
